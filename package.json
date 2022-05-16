@@ -1,6 +1,7 @@
 {
   "name": "@himenon/http-echo",
-  "version": "1.0.3",
+  "version": "1.0.0",
+  "private": true,
   "description": "node library template",
   "keywords": [
     "typescript"
@@ -32,6 +33,9 @@
     "README.md"
   ],
   "scripts": {
+    "docker:build": "./scripts/docker-build.mjs",
+    "docker:cleanup": "./scripts/docker-cleanup.mjs",
+    "docker:push": "./scripts/docker-push.mjs",
     "start": "ts-node -P tsconfig.json src/server.ts",
     "build": "NODE_ENV=production pnpm run webpack:build",
     "clean": "pnpm ts ./scripts/clean.ts",
