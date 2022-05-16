@@ -12,5 +12,4 @@ docker run -p 80:80 -e PORT=80 --rm -t ghcr.io/himenon/http-echo
 
 ## Original Source
 
-* https://github.com/solsson/docker-http-echo
-
+- https://github.com/solsson/docker-http-echo
