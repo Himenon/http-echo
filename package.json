@@ -86,7 +86,7 @@
     "typescript": "4.6.2"
   },
   "engines": {
-    "pnpm": ">=6"
+    "pnpm": ">=7"
   },
   "publishConfig": {
     "access": "public"
