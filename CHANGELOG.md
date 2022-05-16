@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.6"></a>
+## 1.0.6 (2022-05-16)
+
+
+### Bug Fixes
+
+* docker tag latest ([#7](https://github.com/Himenon/template-js/issues/7)) ([5d635da](https://github.com/Himenon/template-js/commit/5d635da))
+
+
+
+
+
 <a name="1.0.5"></a>
 ## 1.0.5 (2022-05-16)
 
