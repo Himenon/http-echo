@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY dist/main.js main.js
 
-CMD ["node", "main.js"]
+CMD ["main.js"]
