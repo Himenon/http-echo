@@ -29,8 +29,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Test & Build
         run: |
+          echo $HOGEEE
           pnpm build
           pnpm test
           pnpm docker:build
         env:
           CI: true
+          HOGEEE: ${{ github.actor }}
