@@ -1,6 +1,6 @@
 {
   "name": "@himenon/http-echo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "node library template",
   "keywords": [
     "typescript"
