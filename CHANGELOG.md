@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.5"></a>
+## 1.0.5 (2022-05-16)
+
+
+### Chores
+
+* add latest ([#6](https://github.com/Himenon/template-js/issues/6)) ([506ac2f](https://github.com/Himenon/template-js/commit/506ac2f))
+
+
+
+
+
 <a name="1.0.4"></a>
 ## 1.0.4 (2022-05-16)
 
