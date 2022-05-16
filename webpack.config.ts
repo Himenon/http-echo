@@ -21,11 +21,6 @@ export const generateConfig = (config: Config): webpack.Configuration => {
       clean: isProduction,
     },
     optimization: {
-      /**
-       * Error時のStack traceが追いやすい用にコードのminifyはしない。
-       * minifyしなくても、Docker Image化する際に圧縮されるため、minifyしたときと大差無いファイルサイズになることがあり、
-       * webpackによって出力されたファイルサイズではなく、Docker化したときのイメージサイスの増減を見たほうがよい
-       */
       minimize: false,
     },
     target: "node",
@@ -38,8 +33,6 @@ export const generateConfig = (config: Config): webpack.Configuration => {
           test: /\.(js|mjs|jsx|ts|tsx)$/,
           exclude: [/__tests__/, /node_modules/],
           use: {
-            // rustで作成されたJavaScript/TypeScriptトランスパイラ（babelよりとても速い）
-            // 設定は.swcrcを読む
             loader: "swc-loader",
           },
         },
