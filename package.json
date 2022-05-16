@@ -49,7 +49,7 @@
     "eslint:format": "eslint \"**/*.{ts,tsx}\" --fix",
     "eslint:validate": "eslint \"**/*.{ts,tsx}\"",
     "depcruise:validate": "depcruise --validate .dependency-cruiser.js src",
-    "jest": "jest -c ./jest.config.js",
+    "jest": "jest -c ./jest.config.js --passWithNoTests",
     "ts": "ts-node -P tsconfig.build.json",
     "webpack:build": "webpack"
   },
