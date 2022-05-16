@@ -32,3 +32,4 @@ jobs:
           pnpm docker:push
         env:
           CI: true
+          DOCKER_USER_NAME: ${{ github.actor }}
