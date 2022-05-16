@@ -1,11 +1,7 @@
 .DS_Store
-lib
-coverage
-node_modules
-package-lock.json
-.env*
 *.log
-private_npm_cache
-.yarn/
-!.yarn/releases/*
-
+node_modules
+test
+.idea
+.env*
+dist
