@@ -34,3 +34,4 @@ jobs:
           pnpm docker:build
         env:
           CI: true
+          DOCKER_USER_NAME: ${{ github.actor }}

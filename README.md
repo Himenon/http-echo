@@ -1,24 +1,15 @@
 # @himenon/http-echo
 
-## Usage
+```bash
+docker pull ghcr.io/himenon/http-echo
 
-| scripts                   | description                                 |
-| :------------------------ | :------------------------------------------ |
-| `build`                   | typescript build and create proxy directory |
-| `clean`                   | clean up                                    |
-| `format:code`             | prettier                                    |
-| `lerna:version:up`        | lerna version up                            |
-| `test`                    | execute test:depcruise, test:jest           |
-| `test:depcruise`          | dependency-cruiser's test                   |
-| `test:jest`               | jest test                                   |
-| `ts`                      | execute ts-node                             |
-| `release:github:registry` | publish github registry                     |
-| `release:npm:registry`    | publish npm registry                        |
-
-## Release
-
-- Automatic version updates are performed when merged into the `main` branch.
+docker run -p 80:80 -e PORT=80 --rm -t ghcr.io/himenon/http-echo
+```
 
 ## LICENCE
 
-[@himenon/http-echo](https://github.com/Himenon/template-js)・MIT
+[@himenon/http-echo](https://github.com/Himenon/http-echo)・MIT
+
+## Original Source
+
+- https://github.com/solsson/docker-http-echo
